@@ -1,0 +1,38 @@
+---
+title: "gRoot"
+author: "Joe Peskett"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This package allows visualisation, manipulation and interaction with the urban forest data for Cardiff. Yes, it's named after the Guardians of the Galaxy character. 
+
+## Data
+
+Three datasets are included in this package `tree_points`, `tree_polygons` and `tree_hex`. `tree_points` will likely be of most use, as it holds all points recorded within Cardiff. The names are failrly self explanatory. Additional information about all data sets can be found by calling `?` followed by the dataset you are interested in. 
+
+
+## CityProfileR
+
+The app that is supplied with this package is called with the function can be launched with the function `launch_app()`. The app will then launch in a new window. There are a number of ways to interact with the app, which are documented in the "Welcome" start page of the app. Note that some of the functions can run slowly as there is a significant amount of data manipulation going on in the back ground. 
+
+There is a blog that documents the steps that went into making this in that can be found at -----
+
+## Functions
+
+Again, documentation is available for each of these functions. 
+
+## Raw data and manipulation
+
+The raw data used in this project is referenced in the repo, though neither the files nor the scripts used to process them are provided in this package. This is due to hardcoding values to process the data so they will not be useful on other data sets and are not required for the application. If you are interested in similar techniques for processing geospatial data, please contact the data science campus.  

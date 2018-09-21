@@ -1,0 +1,32 @@
+---
+title: "welcome"
+author: "Joe Peskett"
+date: "21 September 2018"
+output: html_document
+---
+
+## Start here!
+
+#### Welcome
+
+This app is a prototype of what can be done with the Urban Forests data. The code will shortly be made available on GitHub. Below you can find details of how to navigate around the app. 
+
+#### Sidebar
+
+First you can select the parish (region) you're interested in.This will dictate the roads that can be selected in the lower boxes and also which roads will be highlighted. You can also alter the opacity of the polygons that are laid over the parishes. When pushed up 1 the map won't be visible, at 0 the polygons aren't visible. The two roads you select will be highlighted with markers. 
+
+#### Map
+This is one of the tabs on the main window. The map view allows you to drag around Cardiff. You can press highlight streets to highlight all streets in the selected parish with markers. The more greener marker, the greater the level of vegetation at that point. Clicking on any marker will bring up a link to the street view at this location. 
+
+#### Hexmaps
+This window is not interactive. It shows two hexmaps of Cardiff marking out the 2001 LSOAs. The top one colours this with data from our study, while the bottom colours it with data from the Natural Resource Wales: Tree Cover in Welsh Towns and Cities study. 
+
+#### Street-level View
+This shows an interpretation of the vegetation along the street selected in the first drop down box. The top figure shows all the points, plotted in 2D space. They will be coloured by their way_id and the size is the level of vegetation at that point. The lower plot shows a plot of the level of vegetation as you walk along each way_id. This is an attempt to get around the difficulty of streets with splits, by using way_id.
+
+#### Histogram of Map View
+As it says, this histogram will update depending on the current view of the map. This is helpful to look at when comparing different areas of Cardiff. 
+
+
+
+

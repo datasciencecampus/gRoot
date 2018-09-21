@@ -1,0 +1,20 @@
+Package: gRoot
+Type: Package
+Title: Prototype visualisation for Urban Forest
+Version: 0.1.0
+Author: Joe Peskett
+Maintainer: Joe Peskett <joseph.peskett@ons.gov.uk>
+Description: Prototype visualtion tool for urban forest data
+License: OGL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    sp,
+    ggplot2,
+    reshape2,
+    shinydashboard
+RoxygenNote: 6.1.0
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
