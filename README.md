@@ -19,7 +19,7 @@ More details about the app be found in the vignette which is also contained with
 
 ```
 #install.packages(devtools)
-devtools::install_github("datasciencecampus/gReeneRy")
+devtools::install_github("datasciencecampus/gRoot")
 ```
 
 ### Usage
@@ -27,20 +27,20 @@ devtools::install_github("datasciencecampus/gReeneRy")
 Once installed, the app can be run with the command:
 
 ```
-gReeneRy::launch_app
+gRoot::launch_app
 ```
 
 ### Further documentation
 
 All documentation can be found with 
 ```
-?gReeneRy
+?gRoot
 ```
 
 A vignette giving a brief overview is also provided and can be accessed with:
 
 ```
-vignette(gReeneRy)
+vignette(gRoot)
 ```
 
 ### Related projects
